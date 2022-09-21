@@ -14,22 +14,71 @@
                 <img src="images/Logo.png" width="100%" height="100%" />
             </div>
             <nav class="inline-block"> 
-                <ul>
-                    <li>About</li>
-                    <li>Skills</li>
-                    <li>Work</li>
-                    <li>Contact</li>
-                </ul>
+                <div style="display: flex; height: 100%; width: auto;">
+                    <ul>
+                        <li>About</li>
+                        <li>Skills</li>
+                        <li>Work</li>
+                        <li>Contact</li>
+                    </ul>
+                </div>
             </nav>
         </header>
-        <section class="heroimg">
-            <div class="content">
-                <img src="images/self image.png"/>
-                <p>I am a detail-oriented designer who strives to create innovative and effective solutions for user and stakeholder alike. Humankind and its desire to be understood fascinates me, and is the invaluable source of much of my inspiration when crafting a perfect user experience. </p>
-                <button>Download Resume</button>    
+        <div style="display: flex; flex-direction: column; justify-content: space-evenly;  row-gap: 60px; ">
+            <div class="heroimg">
+                <div class="content">
+                    <img src="images/self image.png"/>
+                    <p>I am a detail-oriented designer who strives to create innovative and effective solutions for user and stakeholder alike. Humankind and its desire to be understood fascinates me, and is the invaluable source of much of my inspiration when crafting a perfect user experience. </p>
+                    <button>Download Resume</button>    
+                </div>
             </div>
+            <!--  My UX Skills section coded using CSS flex -->
+            <section class="mySkills">
+                <h1>My UX Skills</h1>
+                <div class="flexContainer">
+                    <div class="skill1 skill-border-style">
+                        <img/>
+                        <h3>Research</h3>
+                        <p>Plan, conduct, and analyze user interviews and surveys to obtain helpful user insights</p>
+                    </div>
+                    <div class="skill2 skill-border-style">
+                        <img/>
+                        <h3>Information Architecture</h3>
+                        <p>Organize information by labeling and adding navigation to enhance usability within the digital landscape</p>
+                    </div>
+                    <div class="skill3 skill-border-style">
+                        <img/>
+                        <h3>Wireframing</h3>
+                        <p>Develop low-fidelity outlines of digital applications or website screens to etablish what general layout and flow of content  </p>
+                    </div>
+                </div>
+            </section>
+            <!-- My Work Section Constructed using CSS Grid -->
+            <section class="myWork">
+                <h1>My Work</h1>
+                <div class="workGrid">
+                    <div class="grid-item-1">
+                        <img/>
+                    </div>
+                    <div class="grid-item-2">
+                        <h4>Black Fret Non-Profit Redesign Project</h4>
+                        <p>Stuff goes here</p>
+                        <button>View More</button>
+                    </div>
+                    <div class="grid-item-3">
+                        <img/>
+                    </div>
+                    <div class="grid-item-4">
+                        <h4>Awe App</h4>
+                        <p>Stuff goes here</p>
+                        <button>View More</button>
+                    </div>
+                </div>
+                <h3>View All Projects</h3>
+            </section>
+        </div>
 
-        </section>
+
         <footer>
             <ul>
                 <li>About</li>
